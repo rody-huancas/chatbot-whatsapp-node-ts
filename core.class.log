@@ -1,0 +1,77 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '51907979796@s.whatsapp.net',
+    fromMe: false,
+    id: 'E7A69E3DC3EF714B57760E6FBE27E2A2',
+    participant: undefined
+  },
+  messageTimestamp: 1704855960,
+  pushName: 'Rody',
+  broadcast: false,
+  message: Message {
+    conversation: 'buenas',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'buenas',
+  from: '51907979796'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_1dc21099-0a4e-49b1-9735-82fa2a182a16',
+  keyword: 'key_0a46469d-3118-453e-99aa-ef00b29b77ee',
+  answer: 'Hola, ¿Cómo puedo ayudarte hoy?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'd3c75fe8f20b8e266e35968772ddf2f3'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51907979796@s.whatsapp.net',
+    fromMe: false,
+    id: '952A98FF279053957F87B73BC99FC6FD',
+    participant: undefined
+  },
+  messageTimestamp: 1704855991,
+  pushName: 'Rody',
+  broadcast: false,
+  message: Message {
+    conversation: 'Quisiiera tener info de los cursos',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  status: 4,
+  body: 'Quisiiera tener info de los cursos',
+  from: '51907979796'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_68c0b62c-3480-4db3-9477-8f3ef458b061',
+  keyword: 'key_fb713785-b735-42c3-a794-3d5052048a9a',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '9cd866c4a63d45371c43c5f650d4efde'
+}

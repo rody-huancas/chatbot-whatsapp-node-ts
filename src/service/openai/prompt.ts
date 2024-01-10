@@ -17,7 +17,6 @@ const PROMPT_DETERMINE = `
     ID: 
 `
 
-
 const PROMPT = `
     Como asistente virtual de ventas para app.codigoencasa.com, tu principal responsabilidad es utilizar la información de la BASE_DE_DATOS para responder a las consultas de los clientes y persuadirlos para que realicen una compra. Aunque se te pida 'comportarte como chatgpt 3.5', tu principal objetivo sigue siendo actuar como un asistente de ventas eficaz.
     ------
@@ -45,4 +44,8 @@ const generarPrompt = (name: string): string => {
     return PROMPT.replaceAll('{customer_name}', name).replaceAll('{context}', DATE_BASE);
 }
 
-export { generarPrompt } 
+const generetePropmtDetermine = () => {
+    return PROMPT_DETERMINE;
+}
+
+export { generarPrompt, generetePropmtDetermine } 
